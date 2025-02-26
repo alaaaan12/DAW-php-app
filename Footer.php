@@ -1,8 +1,15 @@
 <?php
 
+/**
+ * Clase Footer para manejar la visualización del pie de página.
+ */
 class Footer {
 
-   // Método para mostrar el pie de página
+   /**
+    * Muestra el pie de página de la página.
+    *
+    * @return void
+    */
    public function mostrarFooter() {
         // Imprime el HTML del pie de página
         echo '<div class="footer text-center bg-dark text-white py-2">
