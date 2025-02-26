@@ -3,9 +3,16 @@
 require_once('Connexio.php');
 require_once('Header.php');
 
+/**
+ * Clase Principal para manejar la visualización de productos.
+ */
 class Principal {
     
-    // Método para mostrar la lista de productos
+    /**
+     * Muestra la lista de productos con sus categorías.
+     *
+     * @return void
+     */
     public function mostrarProductes() {
         // Obtiene la conexión a la base de datos
         $conexionObj = new Connexio();
